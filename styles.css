@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    max-width: 1000px; /* Establece el ancho máximo que desees */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+}
+
+header {
+    max-width: 1000px; /* Establece el ancho máximo que desees */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    font-size: 24px;
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    margin-left: 80px; /*mueve el header a la*/
+    padding: 40px;
+    align-items: center;
+    height: 150px;
+    font-weight: bold;
+    margin-bottom: -100px; /* Ajusta la distancia inferior según tu preferencia */
+    }
+
+header img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 20px;
+  
+}
+
+
+h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.content {
+    flex: 2;
+    padding: 20px;
+    font-size: 22px;
+}
+
+
+.izmi   {
+    flex: 1;
+}
+
+.suscribete{
+    text-align:center;
+}
+
+.secciones-container{
+    display:flex ;
+    text-align:center
+}
+
+
+.seccion {
+    flex: 1;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: left;
+    padding: 20px;
+}
+
+.seccion h2 {
+    margin-top: 0;
+}
+
+footer {
+    color: #000000;
+    text-align: center;
+}
+
+.subscribete input[type="email"]{
+    width: 95.6%;
+    margin-bottom: 10px; /* espacio la entrada y el botón */
+}
+
+.subscribete button {
+    width: 100%; /* Establece el ancho del boton */
+}
+
+
+/* Media query para pantallas medianas (tablet) */
+@media screen and (max-width: 800px) {
+    .container {
+        display: list-item;
+    
+    }
+
+    .content {
+
+        font-size: 20px;
+    }
+
+    .izmi {
+        background-color: #ffffff;
+        padding: 20px;
+        display: flex;
+        font-size: 18px;
+    }
+
+    .subscribe {
+        padding: 20px;
+        margin-left: 80px; /* Mueve "Suscríbete" hacia la derecha en tablet */
+        width: 1000px;
+    }
+
+  
+}
